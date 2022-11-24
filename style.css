@@ -1,0 +1,335 @@
+/* Your CSS goes here */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* font-size: 100%;
+  font: inherit; */
+  vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*/ body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 100%;
+  height: 90px;
+  background: #687bbc;
+  display: flex;
+  justify-content: space-between;
+}
+.resturantName {
+  margin-top: 40px;
+  margin-left: 80px;
+  color: white;
+}
+nav {
+  display: flex;
+  margin-top: 40px;
+}
+nav ul {
+  font-size: 25px;
+  margin-right: 38px;
+  color: white;
+}
+nav ul a {
+  text-decoration: none;
+  color: #ffff;
+}
+#barIcon {
+  display: none;
+}
+.hero-sec {
+  width: 100%;
+  height: 450px;
+  background-image: url("img/pexels-photo-260922.webp");
+  opacity: 0.9;
+}
+.article {
+  position: absolute;
+  left: 20%;
+}
+.hero-h1 {
+  text-align: center;
+  font-size: 55px;
+  letter-spacing: 3.4px;
+  margin-top: 150px;
+  color: white;
+}
+.hero-txt {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 26px;
+  margin-top: 30px;
+}
+.main-txt {
+  width: 100%;
+  height: 280px;
+  background-color: rgb(234, 229, 239);
+  margin-top: 50px;
+}
+.description-title {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 2px;
+  padding-top: 40px;
+}
+.main-p {
+  max-width: 1099px;
+  letter-spacing: 1px;
+  line-height: 1.8rem;
+  font-size: 23px;
+  margin-left: 16%;
+  margin-top: 20px;
+}
+.choices {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titles {
+  font-size: 26px;
+  margin-top: 40px;
+}
+.details {
+  max-width: 452px;
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 1.6rem;
+}
+.roles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+footer {
+  width: 100%;
+  height: 89px;
+  background: #687bbc;
+  margin-top: 30px;
+}
+
+hgroup {
+  display: flex;
+  justify-content: space-between;
+}
+.footerList {
+  display: flex;
+  font-size: 22px;
+  color: #ffff;
+  margin-right: 40px;
+}
+.footerH2 {
+  color: white;
+  font-size: 32px;
+  padding-top: 15px;
+  margin-left: 15px;
+}
+
+ul {
+  padding-top: 15px;
+  margin-right: 15px;
+}
+.footerTXT {
+  height: 50px;
+  width: 100%;
+  background: rgb(220, 128, 52);
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  font-size: 24px;
+}
+@media (max-width: 800px) {
+  body {
+  }
+  header {
+    background: #fff;
+  }
+  .resturantName {
+    color: black;
+    margin-left: 0px;
+    display: block;
+  }
+  nav {
+    margin-left: 40px;
+    margin-top: 25px;
+    background: rgb(200, 200, 212);
+    height: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    display: none;
+    
+  }
+  nav ul {
+    margin-right: 28px;
+  }
+  nav ul a {
+    color: black;
+    font-size: 20px;
+  }
+  #barIcon {
+    display: block;
+    margin-top: 35px;
+    margin-right: 35px;
+  }
+  .hero-h1 {
+    color: white;
+    font-size: 40px;
+    padding-right: 60px;
+    letter-spacing: 2px;
+    margin-top: 110px;
+  }
+  .hero-txt {
+    padding-right: 60px;
+  }
+  .description-title {
+    font-size: 25px;
+  }
+  .main-txt {
+    height: 350px;
+  }
+  .main-p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.2rem;
+    margin-left: 10%;
+  }
+  .choices {
+    flex-direction: column;
+  }
+  .roles {
+    flex-direction: column;
+  }
+  .choice-txt {
+    padding-left: 10px;
+  }
+  .footerH2 {
+    font-size: 22px;
+  }
+  .footerList {
+    font-size: 16px;
+  }
+}
