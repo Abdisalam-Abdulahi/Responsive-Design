@@ -1,7 +1,8 @@
+you can view the website live here https://abdisalam-abdulahi.github.io/Responsive-Design/
+
 # Responsive-Design
 
 In this module task you will continue working on the restaurant website to make it compatible for different browser widths.
-
 
 ## Responsive Design
 
@@ -45,15 +46,14 @@ Use the checklist below to guide your work today. Your final product should work
 - [ ] Design should look like design_responsive.jpg file.
 - [ ] The Gallery section and the newsletter form in the design are optional.
 
-
 ### Task 3: Stretch Goals
 
 Once you finish the minimum viable tasks, work on any of the following stretch goals:
 
-- [ ]  Test your website at several breakpoints and refactor code as needed. A few common breakpoints are below:
-  - [ ]  iPhone: 360×640
-  - [ ]  Laptop: 1366×768
-  - [ ]  Widescreen: 1920×1080
+- [ ] Test your website at several breakpoints and refactor code as needed. A few common breakpoints are below:
+  - [ ] iPhone: 360×640
+  - [ ] Laptop: 1366×768
+  - [ ] Widescreen: 1920×1080
 - [ ] Test your webpage's accessibility with a screen reader like [this](https://support.google.com/accessibility/answer/7031755?hl=en)
 - [ ] Start over with min-width media queries to get a feel for how a mobile first approach would be like. I recommend making a branch of all your content in a new folder named "mobile-first" to keep it separate
 - [ ] Test your webpage's accessibility with a screen reader like [this](https://support.google.com/accessibility/answer/7031755?hl=en)
@@ -62,11 +62,11 @@ Once you finish the minimum viable tasks, work on any of the following stretch g
 
 **What if I'm not done with my site from last time?**
 
-*If you're not totally happy with your site, that's fine. Try to work with what you have. If your task from yesterday is in a state that you **absolutely** cannot work on it, reach out to your GL for starter code and attend support hours for more HTML/CSS help.*
+_If you're not totally happy with your site, that's fine. Try to work with what you have. If your task from yesterday is in a state that you **absolutely** cannot work on it, reach out to your GL for starter code and attend support hours for more HTML/CSS help._
 
 **My site works on mobile - does that count as responsive?**
 
-*A mobile website is **not** the same thing as a responsive website! A responsive webpage works at any browser width, not just mobile. Keep on coding!*
+_A mobile website is **not** the same thing as a responsive website! A responsive webpage works at any browser width, not just mobile. Keep on coding!_
 
 ## Resources
 
@@ -80,4 +80,4 @@ Once you finish the minimum viable tasks, work on any of the following stretch g
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <YourfirstName-YourlastName> Branch into main (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge <YourfirstName-YourlastName> Branch into main (student's Repo). **Please don't merge your own pull request**
